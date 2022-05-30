@@ -11,8 +11,8 @@
 <body>
   <form:form action="result" modelAttribute="index_mvc">
     <div>
-      名前：<form:input path="name" />
-      <form:select path="product_id">
+      名前：<form:input path="name" /><br>
+      商品：<form:select path="product_id">
         <form:options items="${productList}" itemLabel="product_name" itemValue="product_id" />
       </form:select>
     </div>
